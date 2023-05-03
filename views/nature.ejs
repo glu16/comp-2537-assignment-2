@@ -1,0 +1,8 @@
+<%- include("templates/header") %> <% if (nature == 1) { %>
+<img src="/<%= images[0] %>" style="width: 250px" />
+<% } else if (nature == 2) { %>
+<img src="/<%= images[1] %>" style="width: 250px" />
+<% } else if (nature == 3) { %>
+<img src="/<%= images[2] %>" style="width: 250px" />
+<% } else { %> Invalid nature id: <%= nature %> <% } %> <%-
+include("templates/footer") %>
